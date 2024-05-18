@@ -1,0 +1,26 @@
+.general {
+    position: relative;
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: var(----border-radius-main-call);
+    padding: var(--padding);
+
+    img{
+        width: 100%;
+    }
+}
+
+
+.general::after{
+    position: absolute;
+    content: '';
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    background: var(--background) no-repeat;
+    background-size: cover;
+
+}

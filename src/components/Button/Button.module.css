@@ -1,0 +1,40 @@
+.button {
+  width: fit-content;
+  height: min-content;
+  padding: 14px 28px;
+
+  color: inherit;
+  font-family: inherit;
+}
+
+.small {
+  font-size: var(--fonts-size-regular);
+  border-radius: var(--border-radius);
+}
+
+.meddle {
+  font-size: var(--fonts-size);
+  border-radius: var(--border-radius-main-call);
+}
+
+.blue {
+  background-color: var(--color-blue);
+}
+
+.transparent {
+  background-color: transparent;
+}
+
+.white {
+  color: var(--color-white);
+}
+
+.borderWhite {
+  border: 1px solid var(--color-white);
+}
+
+@media (hover: hover) {
+  .button:hover {
+    cursor: pointer;
+  }
+}

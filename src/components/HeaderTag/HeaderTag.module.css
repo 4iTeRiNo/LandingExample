@@ -1,0 +1,42 @@
+.general {
+  font-family: 'Georgia', sans-serif;
+  font-size: clamp(1rem, 0.855rem + 0.521vw, 1.5rem);
+  font-style: normal;
+  font-weight: 400;
+  text-align: left;
+  line-height: 130%;
+}
+
+.small {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0px;
+}
+
+.meddle {
+  font-size: 18px;
+  /* font-size: clamp(1rem, 0.855rem + 0.521vw, 1.5rem); */
+
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0px;
+}
+
+.big {
+  font-family: Inter;
+  /* font-size: 24px; */
+  font-size: clamp(1rem, 0.855rem + 0.521vw, 1.5rem);
+
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0px;
+}
+
+.dark {
+  color: var(--color-heading);
+}
+
+.white {
+  color: #fff;
+}

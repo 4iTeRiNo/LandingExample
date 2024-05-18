@@ -1,0 +1,32 @@
+.wrapper {
+  max-width: 1300px;
+  margin-inline: auto;
+  overflow: hidden;
+}
+
+@container (max-width:1920px) {
+  .wrapper {
+    margin-inline: auto;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+  }
+}
+@container (max-width:1199px) {
+  .wrapper {
+    max-width: 900px;
+    margin-inline: auto;
+  }
+}
+@container (max-width:899px) {
+  .wrapper {
+    max-width: 600px;
+  }
+}
+@container (max-width:599px) {
+  .wrapper {
+    max-width: 444px;
+  }
+}
+
+@media (hover: hover) {
+}
